@@ -1,0 +1,59 @@
+New log file opened at Fri Jul 24 15:44:35 EDT 2015 by 11280@W-OFC2460T00
+Taking next connection to: 49269
+New client attempting to connect on port: 49270-49269
+  Address = /10.20.32.129:49269
+This client on port 49270 has uuid b267abeb-25ec-4e76-ab5b-efd41b4419cd configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-b267abeb-25ec-4e76-ab5b-efd41b4419cd
+Taking next connection to: 49269
+New client attempting to connect on port: 49271-49269
+  Address = /10.20.32.129:49269
+Handshake exception on socket: 49271
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:218)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:237)
+	at java.io.DataInputStream.readInt(DataInputStream.java:370)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 49269
+New client attempting to connect on port: 49272-49269
+  Address = /10.20.32.129:49269
+This client on port 49272 has uuid 94826c27-8ddc-472e-a200-83c4e3794051 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-b267abeb-25ec-4e76-ab5b-efd41b4419cd, activator-94826c27-8ddc-472e-a200-83c4e3794051
+Taking next connection to: 49269
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 49269
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 49269
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 49269
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 49269
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 49269
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 49269
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 49269
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 49269
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 11280@W-OFC2460T00 logs at Fri Jul 24 16:11:35 EDT 2015, goodbye.

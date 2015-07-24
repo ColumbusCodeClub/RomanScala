@@ -1,0 +1,384 @@
+New log file opened at Fri Jul 24 15:36:27 EDT 2015 by 12128@W-OFC2460T00
+jvm 12128@W-OFC2460T00
+jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Sun Microsystems Inc. vmVersion=20.45-b01
+jvm specName=Java Virtual Machine Specification specVendor=Sun Microsystems Inc. specVersion=1.0
+jvm arguments: [-Xms256m, -Xmx1024m, -XX:PermSize=64m, -XX:MaxPermSize=256m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=C:\Users\s-pairinguser\hello-scala
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory C:\Users\s-pairinguser\hello-scala\project
+[Loading] Found non-root projects 
+[Loading] Done in C:\Users\s-pairinguser\hello-scala\project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in C:\Users\s-pairinguser\hello-scala\project, returning: (hello-scala-build)
+Loading project definition from C:\Users\s-pairinguser\hello-scala\project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@14da67a4, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory C:\Users\s-pairinguser\hello-scala
+[Loading] Found non-root projects 
+[Loading] Done in C:\Users\s-pairinguser\hello-scala, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in C:\Users\s-pairinguser\hello-scala, returning: (hello-scala)
+Set current project to hello-scala (in build file:/C:/Users/s-pairinguser/hello-scala/)
+Reapplying settings...
+Set current project to hello-scala (in build file:/C:/Users/s-pairinguser/hello-scala/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> {file:/C:/Users/s-pairinguser/hello-scala/}hello-scala/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@6eab8796, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Jul 24, 2015 3:36:31 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/s-pairinguser/hello-scala/}hello-scala/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@693f87b1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Jul 24, 2015 3:36:31 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/s-pairinguser/hello-scala/}hello-scala/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@3f5756de, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Jul 24, 2015 3:36:31 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/s-pairinguser/hello-scala/}hello-scala/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@20e1bfee, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Jul 24, 2015 3:36:32 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@6f5205a4, check cycles: false
+
+Initial source changes: 
+	removed:Set(C:\Users\s-pairinguser\hello-scala\src\main\scala\Hello.scala)
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\s-pairinguser\hello-scala\src\main\scala\Hello.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\s-pairinguser\hello-scala\src\main\scala\Hello.scala)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to C:\Users\s-pairinguser\hello-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\s-pairinguser\hello-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 4e0cead6, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.6.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_45\jre\classes;C:\Users\s-pairinguser\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\s-pairinguser\hello-scala\target\scala-2.11\classes
+Scala compilation took 1.770853526 s
+Invalidating C:\Users\s-pairinguser\hello-scala\src\main\scala\Hello.scala...
+Invalidating (transitively) by inheritance from C:\Users\s-pairinguser\hello-scala\src\main\scala\Hello.scala...
+Initial set of included nodes: Set(C:\Users\s-pairinguser\hello-scala\src\main\scala\Hello.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\s-pairinguser\hello-scala\src\main\scala\Hello.scala)
+The C:\Users\s-pairinguser\hello-scala\src\main\scala\Hello.scala source file has the following regular definitions changed:
+	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, ==, clone, Hello, toString, !=, getClass, ne, eq, ##, finalize, hashCode.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 2 s, completed Jul 24, 2015 3:37:04 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1ea7d7b9, check cycles: false
+
+Canceling execution...
+java.util.concurrent.RejectedExecutionException
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain Hello
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@5e9ea579, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Global,Global,Global,Global),settingsData)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Global,Global,Global,Global),settingsData)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@7a4cbcaf, check cycles: false
+registered more than once? state
+registered more than once? state
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1288e720, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@5835fbdd, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@7cb874d2, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1ba46497, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@6aa86249, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@b08f1ce, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@53372fcf, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@d3cb1cb, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@6879c0f4, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@31706444, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@299b78d4, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@746f2a75, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@53d5aeb, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@2e02d950, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/s-pairinguser/hello-scala/}hello-scala/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@7afc02c8, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/s-pairinguser/hello-scala/,hello-scala)),Select(ConfigKey(compile)),Global,Global),compile)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/s-pairinguser/hello-scala/}hello-scala/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@3ade32e1, check cycles: false
+registered more than once? streams-manager
+registered more than once? streams-manager
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 12128@W-OFC2460T00 logs at Fri Jul 24 15:44:28 EDT 2015, goodbye.
