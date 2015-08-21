@@ -1,3 +1,4 @@
+import com.example.Roman
 import org.scalatest._
 
 class RomanSpec extends FlatSpec with Matchers {
