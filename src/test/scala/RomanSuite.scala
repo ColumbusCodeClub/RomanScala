@@ -22,4 +22,16 @@ class RomanSuite extends FunSuite  {
     assert("III"==subject.convertToRoman(3))
   }
 
+  test("Number 4 returns  IV"){
+    assert("IV"==subject.convertToRoman(4))
+  }
+
+  test("Number 5 returns  V"){
+    assert("V"==subject.convertToRoman(5))
+  }
+  
+  test( "Number 6 returns VI")
+  {
+    assert("VI" == subject.convertToRoman(6))
+  }
 }
