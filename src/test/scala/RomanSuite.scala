@@ -26,6 +26,7 @@ class RomanSuite extends FunSuite  {
     assert("IV"==subject.convertToRoman(4))
   }
 
+<<<<<<< HEAD
   test("Number 5 returns V"){
     assert("V"==subject.convertToRoman((5)))
   }
@@ -50,4 +51,14 @@ class RomanSuite extends FunSuite  {
   //  assert("X"===subject.convertToRoman(10))
   //}
 
+=======
+  test("Number 5 returns  V"){
+    assert("V"==subject.convertToRoman(5))
+  }
+  
+  test( "Number 6 returns VI")
+  {
+    assert("VI" == subject.convertToRoman(6))
+  }
+>>>>>>> 6351f26ac66cc1474ccb14e910446e3d1a100f5c
 }
