@@ -1,7 +1,5 @@
 package com.example
 
-import scala.collection.MapLike
-
 object Roman {
 
   val mapping1 = Map[Int, String](
