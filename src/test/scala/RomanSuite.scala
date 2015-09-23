@@ -8,7 +8,6 @@ class RomanSuite extends FunSuite  {
 
  val subject = Roman
 
-
   test("Number 0 returns  nothing"){
     assert(""==subject.convertToRoman(0))
   }
@@ -88,6 +87,10 @@ class RomanSuite extends FunSuite  {
     assert("M"==subject.convertToRoman((1000)))
   }
 
+  test("Number 1001 returns MI"){
+    assert("MI"==subject.convertToRoman((1001)))
+  }
+
   test("Number 1888 returns MDCCCLXXXVIII"){
     assert("MDCCCLXXXVIII"==subject.convertToRoman((1888)))
   }
@@ -108,12 +111,15 @@ class RomanSuite extends FunSuite  {
     assert("V'"==subject.convertToRoman((5000)))
   }
 
-  test("Number 6000 returns V'M"){
-    assert("V'M"==subject.convertToRoman((6000)))
+  test("Number 6001 returns " + "V'MI"){
+    assert("V'MI"==subject.convertToRoman((6001)))
+  }
+
+  test("Number 7010 returns V'MMX"){
+    assert("V'MMX"==subject.convertToRoman((7010)))
   }
 
   test("Number 8888 returns V'MMMDCCCLXXXVIII"){
     assert("V'MMMDCCCLXXXVIII"==subject.convertToRoman((8888)))
   }
-
 }
